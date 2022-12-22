@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-github-proxy",
+	"name": "GProxy",
+	"version": "0.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "从github镜像资源站下载，解决github资源下载失败问题",
+	"author": "Phoenix.C",
+	"authorUrl": "https://github.com/PhoenixFEC/obsidian-github-proxy",
+	"isDesktopOnly": true
+}
