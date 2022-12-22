@@ -7,6 +7,10 @@ import {
     Setting,
 } from "obsidian";
 
+declare const window: Window & {
+    electron: any;
+};
+
 interface GProxySettings {
     pluginName?: string;
     mirrorServer: string;
@@ -17,7 +21,7 @@ interface GProxySettings {
 const DEFAULT_SETTINGS: GProxySettings = {
     mirrorServer: "fastgit",
     enabled: false,
-    language: 'ZH-CN'
+    language: "ZH-CN",
 };
 
 const mirrorsMap: any = {
@@ -225,7 +229,9 @@ class GProxySettingTab extends PluginSettingTab {
         containerEl.empty();
 
         containerEl.createEl("h1", { text: "GProxy" });
-        containerEl.createEl("p", { text: "从github镜像资源站下载Obsidian 社区插件，解决github资源下载失败问题" });
+        containerEl.createEl("p", {
+            text: "从github镜像资源站下载Obsidian 社区插件，解决github资源下载失败问题",
+        });
 
         new Setting(containerEl)
             .setName("启用 GProxy")
