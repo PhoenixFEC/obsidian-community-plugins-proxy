@@ -12,8 +12,8 @@ You should add **GProxy** to your local plugins floder,
 
 Includes:
 
--   [main.js](https://github.com/PhoenixFEC/obsidian-community-plugins-proxy/releases/download/v0.2.0/main.js)
--   [manifest.json](https://github.com/PhoenixFEC/obsidian-community-plugins-proxy/releases/download/v0.2.0/manifest.json)
+-   [main.js](https://github.com/PhoenixFEC/obsidian-community-plugins-proxy/releases/download/0.2.0/main.js)
+-   [manifest.json](https://github.com/PhoenixFEC/obsidian-community-plugins-proxy/releases/download/0.2.0/manifest.json)
 
 ## Second
 
