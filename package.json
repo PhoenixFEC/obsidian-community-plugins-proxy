@@ -12,7 +12,9 @@
         "obsidian",
         "plugin",
         "github",
-        "proxy"
+        "proxy",
+        "obsidian-plugin",
+        "community-plugin"
     ],
     "author": "Phoenix.C",
     "license": "MIT",
